@@ -1,4 +1,4 @@
-Hi, I created this app, so I could use an external library for the carousel,
+Hi, I created this app using React, so I could use an external library for the carousel,
 in this case I used react-multi-carousel
 
 https://www.npmjs.com/package/react-multi-carousel
