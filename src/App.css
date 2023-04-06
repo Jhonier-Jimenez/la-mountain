@@ -1,38 +1,256 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  max-width: 100vw;
+}
+
+.content-background {
+  min-width: 100vw;
+  max-width: 100vw;
+  min-height: 90vh;
+  max-height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  min-width: 80%;
+  max-width: 80%;
+}
+
+.top-content {
+  background-image: url("./images/mountain.png");
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.logo {
+  width: 5rem;
+}
+
+.header {
+  width: 100%;
+  max-height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.header-menu-item {
+  margin-right: 5rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header-menu-item:hover {
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top-content-text {
+  font-size: 5rem;
+}
+
+.top-content-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.top-content-text1 {
+  color: #2d2727;
+  margin: 0;
+}
+
+.top-content-text2 {
+  color: #19376d;
+  margin: 0;
+}
+
+.middle-header {
+  display: flex;
+}
+
+.middle-header-item-2 {
+  display: flex;
+}
+
+.middle-header-menu-item {
+  margin-right: 5rem;
+  color: #19376d;
+}
+
+.middle-header-menu-item:hover {
+  text-decoration: underline;
+}
+
+.middle-content {
+  background-image: url("./images/peak.png");
+  align-items: center;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 1rem;
+  position: relative;
+}
+
+.number-text {
+  margin: 0;
+  font-size: 10rem;
+}
+
+.description-text-history {
+  margin: 0;
+}
+
+.history-text {
+  font-size: 2rem;
+  color: #19376d;
+  position: absolute;
+  top: 5rem;
+  left: 12rem;
+}
+
+.description-text-history {
+  font-size: 1rem;
+}
+
+.carousel-item {
+  max-width: 15rem;
+  min-width: 15rem;
+}
+
+.carousel-container {
+  width: 100%;
+}
+
+.climb-container {
+  flex-direction: row;
+}
+
+.climb-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.climb-container {
+  display: flex;
+}
+
+.mountain-container {
+  background-color: #19376d;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 2.5rem;
+}
+
+.mountain-text {
+  font-size: 2rem;
+  color: #cfd2cf;
+  margin: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mountain-text-container {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.mountain-text-container:hover {
+  background-color: #cfd2cf;
+}
+
+.mountain-text:hover {
+  text-decoration: underline;
+  color: #19376d;
+}
+
+.content-container-mountain {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-content {
+  background-image: url("./images/slider3.png");
+  position: relative;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #19376d;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-text {
+  color: white;
+  margin: 0;
+}
+
+.content-container-footer {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-text-container {
+  margin-left: 2rem;
+}
+
+.copyright {
+  color: white;
+}
+
+.schedule {
+  color: #19376d;
+  font-size: 4rem;
+}
+
+.bottom-info {
+  background-color: white;
+  max-width: 50%;
+}
+
+.content-container-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-container-footer {
+  display: flex;
 }
